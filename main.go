@@ -1,8 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"blog/common/router"
+)
 
 func main() {
-	fmt.Print("sad")
+	router.Router()
 }
-
